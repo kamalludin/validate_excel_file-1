@@ -1,0 +1,20 @@
+{
+    "name": "kamalludin/validate-excel-file-1",
+    "description": "For validation excel file xls or xlsx extention",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kamalludin",
+            "email": "kamal.amay14@gmail.com"
+        }
+    ],
+    "require": {
+        "phpoffice/phpexcel": "^1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "kamalludin\\ValidateExcelFile\\": "src/"
+        } 
+    }
+}
